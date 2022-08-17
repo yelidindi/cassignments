@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+   int a[5]={1,2,3,5};
+   int sum;
+   sum=5*(5+1)/2;
+   int j=0,i;
+   for(i=0;i<5;i++)
+   {
+       j=j+a[i];
+   }
+   printf("missing elements=%d",sum-j);
+
+    return 0;
+}
